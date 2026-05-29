@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="juros">
+        <h1>Calculadora de Juros</h1>
+        <h3>Simples e composto</h3>
+        <p>Simule seus investimentos ou empréstimos <br>
+            de forma rápida e fácil com nossa <br>
+            calculadora de juros</p>
+        <div class="saiba">
+        <a href="index2.html" id="saibaMais">Entenda melhor juros</a>
+        </div>
+    </div>
+    <div class="paiContainer">
+
+        <form action="">
+            <br>
+            <h1>Calculadora de juros</h1> <br><br>
+            <label for=""> 🏦Capital:</label><br>
+            <input type="number" id="capital" name="capital"> <br> <br>
+
+            <label for=""> 💸Taxa:</label><br>
+            <input type="number" id="taxa" name="taxa"> <br> <br>
+
+            <label for=""> 📅 Tempo:</label><br>
+            <input type="number" id="tempo" name="tempo"> <br> <br>
+
+            <label for=""> % Tipo de juros</label>
+            <select id="tipoJuros">
+                <option value="1">Simples</option>
+                <option value="2">Composto</option>
+            </select> <br> <br><br>
+            <center>
+                <button type="button" onclick="calcular()">Enviar</button>
+                <br>
+
+                <button type="button" onclick="limpar()">Novo cálculo</button> <br><br><br>
+
+
+            </center>
+        </form>
+        <img src="" alt="">
+        <h2 id="resultado"></h2>
+        <h2 id="resultado2"></h2>
+        <script src="calculadora.js"></script>
+
+        <img src="imgChat.png" alt="">
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D6AABE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h1 {
+    color: #5f303b;
+}
+
+.paiContainer {
+    background-color: #ae6173;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 4px #5f303b;
+}
+
+input {
+    background-color: #D6AABE;
+    width: 250px;
+    border-radius: 5px;
+}
+
+option {
+    background-color: #D6AABE;
+    width: 250px;
+    border-radius: 5px;
+}
+
+select {
+    background-color: #D6AABE;
+}
+
+button {
+    background-color: #9c4257;
+    width: 130px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: #7b3848;
+    display: flex;
+    justify-content: center;
+}
+
+#resultado {
+    bottom: 150px;
+    position: absolute;
+}
+
+#resultado2 {
+    bottom: 190px;
+    position: absolute;
+}
+
+#saibaMais {
+    background-color: #9c4257;
+    color: #4f202b;
+    padding: 8px;
+    width: 250px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: #662937;
+}
+.juros{
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    font-size: 25px;
+}
+.saiba{
+    position: absolute;
+    left: 30px;
+    top: 195px;
+}
+img{
+    position: absolute;
+    top: 200px;
+    right: 5px;
+    width: 600px;
+}

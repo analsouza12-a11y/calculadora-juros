@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D6AABE;
+    height: 100vh;
+    margin-left: 15px;
+}
+
+.linha {
+    border: 1px solid #5f303b;
+}
+
+.containerMae{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.container{
+    background-color: #ae6173;
+    width: 30%;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #742e3e;
+}
+#saibaMais {
+    background-color: #742e3e;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
