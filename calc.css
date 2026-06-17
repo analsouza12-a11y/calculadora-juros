@@ -89,3 +89,20 @@ img{
     right: 5px;
     width: 600px;
 }
+@media(max-width: 600px){
+    .juros{
+        position: absolute;
+        left: 50px;
+        top: 650px;
+    }
+    #saibaMais{
+        position: absolute;
+        left: 50px;
+        top: 80px;
+    }
+    img{
+        position: absolute;
+        right: -80px;
+        top: 950px;
+    }
+}
